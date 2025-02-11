@@ -15,14 +15,22 @@ const downloadButtons = [
     icon: DevicePhoneMobileIcon,
     href: "https://space.bilibili.com/549223722/upload/video",
     storeName: "Bilibili",
-    rating: 5.0
+    rating: 5.0,
+    ratingCount: 1000,
+    size: "50MB", // 示例值
+    version: "1.2.3", // 示例值
+    systemReq: "浏览器支持 HTML5", // 示例值
   },
   {
     platform: "小红书",
     icon: DevicePhoneMobileIcon,
-    href: "https://www.xiaohongshu.com/user/profile/62f38bed000000001f005420?xhsshare=WeixinSession&appuid=62f38bed000000001f005420&apptime=1732030225&share_id=bf22f2788cf74f528af628929c09b8dc&wechatWid=a224c5a871cecfd9808780eb71372965&wechatOrigin=menu",
+    href: "https://www.xiaohongshu.com/user/profile/...",
     storeName: "Red book",
-    rating: 4.7
+    rating: 4.7,
+    ratingCount: 800,
+    size: "60MB", // 示例值
+    version: "1.3.0", // 示例值
+    systemReq: "移动设备系统版本要求", // 示例值
   }
 ];
 
@@ -53,13 +61,13 @@ const Download = () => {
               与你开始
             </span>
             <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
-              和MIKO相伴，
+              和MIKO相伴
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-cyan-600">
                 让世界展开
               </span>
             </h2>
             <p className="mt-4 text-lg leading-8 text-gray-600">
-              从任何一个你喜欢的角度来了解MIKO的世界吧！
+              从任何一个你喜欢的角度来了解MIKO的世界吧
             </p>
           </motion.div>
         </div>
